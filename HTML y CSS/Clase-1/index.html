@@ -9,40 +9,38 @@
 </head>
 <body>
     <header>
-        <div id="cuadro">
-            <p>120 x 80</p>
-        </div>
-        <div id="navegación">
-            <p>Sección 1</p>
-            <p>Sección 2</p>
-            <p>Sección 3</p>
-            <p>Sección 4</p>
+        <div>
+            <p id="cuadro"> 120 x 80</p>
+        <ul class="menu">
+            <li><p>Inicio</p></li>
+            <li><p>Acerca de</p></li>
+            <li><p>Servicios</p></li>
+            <li><p>Contacto</p></li>
+        </ul>
         </div>
     </header>
-    
-    <div class="container">
-        <section id="left">
-            <h2>Noticias</h2>
-            <img src="./images/Japon.jpg" alt="Panorámica de Japón">
-            <p id="descripción">Esto es una foto panorámica de Japón con los cerezos en flor.</p>
-        </section>
-        <section id="right">
-            <div id="right_top">
-                <h2>Novedades</h2>
-                <ul id="lista2">
-                    <li>Primero</li>
-                    <li>Segundo</li>
-                    <li>Tercero</li>
-                </ul>
-            </div>
-            <div id="right_bot">
+    <section id="container">
+        <article id="left">
+        <h1 id="noticias">Noticias</h1>
+        <img id="imagen" src="./images/Japon.jpg" alt="Una foto de Japon">
+        <p id="description"> Aquí podemos ver una foto panorámica de Japon con los cerezos en flor.</p>
+        </article>
+        <article id="right">
+            <div id="top_right" class="novedades">
+                <h1 id="novedades">Novedades</h1>
+                <ul id="lista1">
+                    <li id="lista1">Primero</li>
+                    <li id="lista1">Segundo</li>
+                    <li id="lista1">Tercero</li>
+                 </ul>
+             </div>
+        <div id="bottom_right">
 
-            </div>
-        </section>
-    </div>
-
+        </div>
+        </article>
+    </section>
     <footer>
-        <p id="texto_pie">Pie de foto</p>
+        <span id="pie" style="white-space: nowrap;"> Este es el pie de foto de la página aun mas grande</span>
     </footer>
 </body>
 </html>
